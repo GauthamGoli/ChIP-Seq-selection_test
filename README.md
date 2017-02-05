@@ -22,9 +22,10 @@ The generated results are also available in this repository.
 
 ### Missing parts in [PR](https://bitbucket.org/mugqic/mugqic_pipelines/pull-requests/18/supervised-chipseq/diff):
 
- * Convertion of labels
+ * Conversion of labels
  * Creating problems for each sample before computing targets
  * Summarizing peak prediction
+ * Also, all the mentioned steps in the ```step``` method don't have definitions. So the PR is not complete in itself. Its just a skeleton code.
 
 ### Pipeline reliability tests
 
